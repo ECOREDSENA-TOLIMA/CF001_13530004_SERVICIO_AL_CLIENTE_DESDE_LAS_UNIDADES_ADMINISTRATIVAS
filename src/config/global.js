@@ -1,17 +1,14 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo: 'Servicio al cliente en las organizaciones',
+    descripcionCurso:
+      'Este componente formativo permite apropiarse de los conocimientos de servicio al cliente, protocolos, normas técnicas y procedimientos de servicio; así como conocimientos generales de la empresa desde el tipo, actividad económica, estructura organizacional y manual de funciones y procedimientos.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
       },
     ],
   },
@@ -31,13 +28,33 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Servicio al cliente',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Ciclo',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Triángulo y momentos de verdad',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Protocolo, normas, técnicas y procedimientos de servicio',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Portafolio de servicios y canales',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Libreta de calificaciones y manual de funciones',
+            hash: 't_1_5',
           },
         ],
       },
