@@ -62,14 +62,53 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'La empresa',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Tipo de empresas',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Actividad económica de la empresa',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Estructura orgánico-funcional ',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Manual de funciones y procedimientos',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Plataforma estratégica',
+            hash: 't_2_5',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Norma ISO 9000 ',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Objetivos y generalidades',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Lineamientos sobre servicio',
+            hash: 't_3_2',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -114,32 +153,71 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: '1. Servicio al cliente',
+      referencia: 'Palomo, M., M. (2014). Atención al cliente. Paraninfo S.A.',
+      tipo: 'Libro',
+      link:
+        'https://books.google.es/books?id=WWWgBwAAQBAJ&printsec=frontcover&hl=es&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '3. ISO 9001:2015(es) Sistemas de gestión de la calidad',
+      referencia: 'ISO. (2015). Norma ISO 90001:2015.',
+      tipo: 'Norma internacional',
+      link: 'https://www.iso.org/obp/ui/es/#iso:std:iso:9000:ed-4:v1:es',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Calidad',
+      significado:
+        'propiedad que tiene una cosa u objeto, y que define su valor, así como la satisfacción que provoca en un sujeto (Peiró, 2020).',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Cliente',
+      significado:
+        'persona o entidad que compra los bienes y servicios que ofrece una empresa (Quiroa, 2019).',
+    },
+    {
+      termino: 'Empresa',
+      significado:
+        'forma de organización por parte del ser humano, para suplir necesidades, por medio de la producción de bienes y servicios; donde se integra la fuerza laboral.',
+    },
+    {
+      termino: 'Servicio',
+      significado:
+        'en el ámbito económico es la acción o conjunto de actividades destinadas a satisfacer una determinada necesidad de los clientes, brindando un producto inmaterial y personalizado (Sánchez, 2016).',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia: 'ISO. (2015). Norma ISO 90001:205',
+      link: 'https://www.iso.org/obp/ui/es/#iso:std:iso:9000:ed-4:v1:es',
+    },
+    {
+      referencia:
+        'Presidencia de la República de Colombia. (1971). Decreto 410 de 1971. Por el cual se expide el Código de Comercio.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=41102',
+    },
+    {
+      referencia: 'Palomo, M., M. (2014). Atención al cliente. Paraninfo S.A.',
       link: '',
+    },
+    {
+      referencia: 'Peiró, R. (2020). Economipedia.',
+      link: 'https://economipedia.com/definiciones/calidad-2.html',
+    },
+    {
+      referencia: 'Quiroa, M. (2019). Economipedia. ',
+      link: 'https://economipedia.com/definiciones/cliente.html',
+    },
+    {
+      referencia: 'Sánchez, G., J. (2015). Empresa. ',
+      link: 'https://economipedia.com/definiciones/empresa.html',
+    },
+    {
+      referencia: 'SENA. (2020). Servicio al cliente. [Video]. YouTube. ',
+      link: 'https://www.youtube.com/watch?v=dB6FOVF-wWs',
     },
   ],
   creditos: [
@@ -152,9 +230,9 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Norma Constanza Morales Cruz',
           cargo: 'Responsable de línea de producción',
-          centro: 'Nombre centro de formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -162,9 +240,40 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Nombre centro de formación',
+          nombre: 'María Alejandra Tovar',
+          cargo: 'Experta Temática',
+          centro: 'Regional Tolima- Centro de Industria y la Construcción.',
+        },
+        {
+          nombre: 'Leydy Jhuliana Jaramillo Mejía',
+          cargo: 'Diseñadora instruccional',
+          centro: 'Regional Distrito Capital - Centro de Gestión Industrial.',
+        },
+        {
+          nombre: 'Silvia Milena Sequeda Cárdenas',
+          cargo: 'Asesora metodológica',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología.',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable Equipo desarrollo curricular',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura.',
+        },
+        {
+          nombre: 'Julia Isabel Roberto',
+          cargo: 'Correctora de estilo',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología.',
+        },
+        {
+          nombre: 'Luis Fernando Botero Mendoza',
+          cargo: 'Diseñador instruccional',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios.',
+        },
+        {
+          nombre: 'Maria Inés Machado López',
+          cargo: 'Asesor Metodológico',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -172,19 +281,34 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Oscar Iván Uribe Ortiz',
           cargo: 'Diseñador web',
-          centro: 'Nombre centro de formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Davison Gaitán Escobar',
           cargo: 'Desarrollador Fullstack',
-          centro: 'Nombre centro de formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Nombre centro de formación',
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Storyboard e Ilustración',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Nelson Iván Vera Briceño',
+          cargo: 'Producción audiovisual',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Oleg Litvin',
+          cargo: 'Animador',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Sebastián Trujillo Afanador',
+          cargo: 'Actividad Didáctica',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -192,14 +316,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre validador',
+          nombre: 'Jorge Bustos Gómez',
           cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Nombre centro formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre validador',
+          nombre: 'Gilberto Naranjo Farfán',
           cargo: 'Validación de contenidos accesibles',
-          centro: 'Nombre centro formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
