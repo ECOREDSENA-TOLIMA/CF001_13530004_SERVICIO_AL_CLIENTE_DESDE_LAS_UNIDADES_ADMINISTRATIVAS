@@ -35,7 +35,7 @@
                 figure
                   img(src='@/assets/curso/temas/tema1/img2.svg')
               .col-4
-                h4 Consumidor conservador:
+                h4 Consumidor conservador
                 p Es el consumidor fiel a una empresa, organización o marca, es difícil influir en él. 
             
               .col-2
