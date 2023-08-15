@@ -202,7 +202,7 @@
           ul.lista-ul
             li 
               i.lista-ul__vineta
-              | Marketing y comunicación.
+              | <i>Marketing</i> y comunicación.
             li 
               i.lista-ul__vineta
               | Ventas.
@@ -210,7 +210,7 @@
               i.lista-ul__vineta
               | Facturación y cartera.
 
-          p El ciclo de marketing y comunicaciones permite a la organización dar a conocer sus productos y servicios a los clientes mediante estrategias de marketing y comunicación, es la etapa de contacto con el cliente, se debe analizar las técnicas de comunicación e interacción con el cliente.
+          p El ciclo de <i>marketing</i> y comunicaciones permite a la organización dar a conocer sus productos y servicios a los clientes mediante estrategias de marketing y comunicación, es la etapa de contacto con el cliente, se debe analizar las técnicas de comunicación e interacción con el cliente.
 
         .row.justify-content-center.mt-5
           .col-8 
@@ -323,91 +323,91 @@
           .tarjeta.color-acento-contenido.p-3(x="20.6%" y="20.2%" numero="1")
             .h5 Aida
             ol.lista-ol
-            li 
-              span.text-bold 1. 
-              | Servicio de calidad-atención. 
-            li 
-              span.text-bold 2. 
-              | Los beneficios que requiere el consumidor-interés. 
-            li 
-              span.text-bold 3. 
-              | Generar deseo. 
-            li 
-              span.text-bold 4. 
-              | Finalización, acción. 
+              li 
+                span.text-bold 1. 
+                | Servicio de calidad-atención. 
+              li 
+                span.text-bold 2. 
+                | Los beneficios que requiere el consumidor-interés. 
+              li 
+                span.text-bold 3. 
+                | Generar deseo. 
+              li 
+                span.text-bold 4. 
+                | Finalización, acción. 
 
           .tarjeta.color-acento-contenido.p-3(x="79.5%" y="20.2%" numero="2")
             .h5 Aidda
             ol.lista-ol
-            li 
-              span.text-bold 1. 
-              | Servicio de calidad-atención. 
-            li 
-              span.text-bold 2. 
-              | Los beneficios que requiere el consumidor-interés. 
-            li 
-              span.text-bold 3. 
-              | Demostración. 
-            li 
-              span.text-bold 4. 
-              | Generar deseo.  
-            li 
-              span.text-bold 5. 
-              | Finalización, acción.   
+              li 
+                span.text-bold 1. 
+                | Servicio de calidad-atención. 
+              li 
+                span.text-bold 2. 
+                | Los beneficios que requiere el consumidor-interés. 
+              li 
+                span.text-bold 3. 
+                | Demostración. 
+              li 
+                span.text-bold 4. 
+                | Generar deseo.  
+              li 
+                span.text-bold 5. 
+                | Finalización, acción.   
 
           .tarjeta.color-acento-contenido.p-3(x="81.6%" y="50.1%" numero="3")
             .h5 Aicdc
             ol.lista-ol
-            li 
-              span.text-bold 1. 
-              | Atención. 
-            li 
-              span.text-bold 2. 
-              | Interés. 
-            li 
-              span.text-bold 3. 
-              | Convicción. 
-            li 
-              span.text-bold 4. 
-              | Deseo. 
-            li 
-              span.text-bold 5. 
-              | Cierre. 
+              li 
+                span.text-bold 1. 
+                | Atención. 
+              li 
+                span.text-bold 2. 
+                | Interés. 
+              li 
+                span.text-bold 3. 
+                | Convicción. 
+              li 
+                span.text-bold 4. 
+                | Deseo. 
+              li 
+                span.text-bold 5. 
+                | Cierre. 
 
           .tarjeta.color-acento-contenido.p-3(x="50%" y="84.5%" numero="4")
             .h5 Spirt
             ol.lista-ol
-            li 
-              span.text-bold 1. 
-              | Servicio de calidad. 
-            li 
-              span.text-bold 2. 
-              | Los beneficios que requiere el consumidor. 
-            li 
-              span.text-bold 3. 
-              | Ofrecer y convencer. 
-            li 
-              span.text-bold 4. 
-              | Persuadir al cliente. 
-            li 
-              span.text-bold 5. 
-              | Finalización. 
+              li 
+                span.text-bold 1. 
+                | Servicio de calidad. 
+              li 
+                span.text-bold 2. 
+                | Los beneficios que requiere el consumidor. 
+              li 
+                span.text-bold 3. 
+                | Ofrecer y convencer. 
+              li 
+                span.text-bold 4. 
+                | Persuadir al cliente. 
+              li 
+                span.text-bold 5. 
+                | Finalización. 
 
           .tarjeta.color-acento-contenido.p-3(x="18.6%" y="50.2%" numero="5")
             .h5 Spin
             ol.lista-ol
-            li 
-              span.text-bold 1. 
-              | Situación del cliente.
-            li 
-              span.text-bold 2. 
-              | Problema del cliente.
-            li 
-              span.text-bold 3. 
-              | Implicaciones para el cliente. 
-            li 
-              span.text-bold 4. 
-              | Necesidad del cliente. 
+              li 
+                span.text-bold 1. 
+                | Situación del cliente.
+              li 
+                span.text-bold 2. 
+                | Problema del cliente.
+              li 
+                span.text-bold 3. 
+                | Implicaciones para el cliente. 
+              li 
+                span.text-bold 4. 
+                | Necesidad del cliente. 
 
     p(data-aos="fade-right").mt-5 De acuerdo con estos modelos tradicionales, se establece un procedimiento de técnicas de servicio y ventas en el cual se debe captar la atención e interés del cliente, para dar a conocer el portafolio de producto de acuerdo con las necesidades manifestadas y con el que se debe persuadir para que adquiera los productos y se cierra o finaliza con la prestación de un servicio de calidad. 
     p(data-aos="fade-right") Las organizaciones dentro de sus técnicas de servicio y ventas deben realizar seguimiento a las misma después del cierre para conocer si se cumplieron con las expectativas, se generó fidelidad por parte de los clientes y crear planes de mejora, para ello identifique el proceso técnico de servicio al cliente.
