@@ -9,8 +9,8 @@
 
     figure
       .video
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/7ol7AKzkYfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          figcaption Protocolo, normas, técnicas y procedimientos de servicio
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/7ol7AKzkYfg" title="Protocolo, normas, técnicas y procedimientos de servicio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          figcaption Video: Protocolo, normas, técnicas y procedimientos de servicio
 
     p(data-aos="fade-right").mt-5 Las organizaciones deben centrar sus actividades en satisfacer las necesidades de sus clientes internos y externos, así, cada área operativa debe estar orientada a cumplir las necesidades que cada uno de ellos tiene, o cumplir las expectativas que tienen con la empresa.
     p(data-aos="fade-right") El existir de las organizaciones son los clientes, por lo cual la plataforma estratégica y organizacional está centrada en cómo llegar a ese cliente que desea satisfacer una necesidad, por ello, se deben emplear prácticas productivas de calidad y unas correctas técnicas de comunicación al interior de la organización y con cada uno de los clientes. 
