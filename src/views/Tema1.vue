@@ -9,8 +9,8 @@
 
     figure
       .video
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/7ol7AKzkYfg" title="Protocolo, normas, técnicas y procedimientos de servicio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          figcaption Video: Protocolo, normas, técnicas y procedimientos de servicio
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dB6FOVF-wWs?si=bJ_Mu6lYqem5qHzO" title="Servicio al Cliente" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          figcaption Video: Servicio al Cliente
 
     p(data-aos="fade-right").mt-5 Las organizaciones deben centrar sus actividades en satisfacer las necesidades de sus clientes internos y externos, así, cada área operativa debe estar orientada a cumplir las necesidades que cada uno de ellos tiene, o cumplir las expectativas que tienen con la empresa.
     p(data-aos="fade-right") El existir de las organizaciones son los clientes, por lo cual la plataforma estratégica y organizacional está centrada en cómo llegar a ese cliente que desea satisfacer una necesidad, por ello, se deben emplear prácticas productivas de calidad y unas correctas técnicas de comunicación al interior de la organización y con cada uno de los clientes. 
@@ -148,7 +148,7 @@
     .row.justify-content-center.mt-5
       .col-10
         .titulo-sexto.color-acento-contenido
-          h5 Figura 1: 
+          h5 Figura 1.
           span <i>Ciclo de servicio al cliente.</i>
         .row.justify-content-center
           .col-4
@@ -215,7 +215,7 @@
         .row.justify-content-center.mt-5
           .col-8 
             .titulo-sexto.color-acento-contenido
-              h5 Figura 2: 
+              h5 Figura 2.
               span <i>Ciclo de marketing y comunicación.</i>
             figure
               img(src='@/assets/curso/temas/tema1/img21.svg', alt='Se muestra un ciclo circular en los siguientes pasos: 1. Estrategias de marketing y publicidad. 2. Conocimiento del producto o servicio. 3. Comunicación con el cliente. 4. Satisfacción.')    
@@ -225,7 +225,7 @@
       .row.justify-content-center.mt-5.BGIMG02
         .col-8 
             .titulo-sexto.color-acento-contenido.mt-5
-              h5 Figura 3: 
+              h5 Figura 3.
               span <i>Ciclo de ventas.</i>
             figure
               img(src='@/assets/curso/temas/tema1/img22.svg', alt='Se muestra un ciclo circular en los siguientes pasos: 1. Contacto con el cliente. 2. Información. 3. Venta de producto o servicio. 4. Posventa.')    
@@ -304,15 +304,15 @@
     p(data-aos="fade-right").mb-5 El protocolo de servicio al cliente tiene diferentes procesos que configuran la confiabilidad y calidad de la empresa, así se pueden implementar en el contexto que brinde satisfacción a las necesidades del cliente. 
     figure
        .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/25hHFRh4Mjg" title="Evaluación y monitoreo en la implementación de BPG en la Producción Porcina" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video: Evaluación y monitoreo en la implementación de BPG en la Producción Porcina
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/7ol7AKzkYfg" title="Protocolo, normas, técnicas y procedimientos de servicio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption Video: Protocolo, normas, técnicas y procedimientos de servicio
 
     p(data-aos="fade-right").mt-5 Existen diferentes técnicas como la técnica Spirt, Aida, Aidda, Spin, Aicdc y FAB, entre otros, que dependen de los canales de comunicación y distribución, estos modelos son tradicionales en cada una de las organizaciones, y presentan similitud entre ellos.
 
     .row.justify-content-center.mt-5
       .col-10
         .titulo-sexto.color-acento-contenido
-          h5 Figura 4: 
+          h5 Figura 4.
           span <i>Modelos técnicas de servicio y ventas.</i>
 
         ImagenInfografica.color-acento-botones
@@ -447,7 +447,7 @@
     .row.justify-content-center.mt-5
       .col-10
         .titulo-sexto.color-acento-contenido
-          h5 Figura 5: 
+          h5 Figura 5. 
           span <i>ISO 9001:2015 - Cliente.</i>
 
         figure

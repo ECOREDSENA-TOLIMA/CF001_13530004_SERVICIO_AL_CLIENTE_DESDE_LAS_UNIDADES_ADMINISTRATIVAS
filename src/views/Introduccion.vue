@@ -12,8 +12,8 @@
     p(data-aos="fade-right").mb-5.mt-5 En el inicio de este proceso formativo, se sugiere comenzar con esta introducción que hará un acercamiento a las temáticas que serán abordadas.
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/25hHFRh4Mjg" title="Evaluación y monitoreo en la implementación de BPG en la Producción Porcina" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-            figcaption Video: Evaluación y monitoreo en la implementación de BPG en la Producción Porcina
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/pblGQOtYOh8?si=NuIgbjlrsRodZBs5" title="Servicio al cliente en las organizaciones" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            figcaption Video: Servicio al cliente en las organizaciones
     
 </template>
 

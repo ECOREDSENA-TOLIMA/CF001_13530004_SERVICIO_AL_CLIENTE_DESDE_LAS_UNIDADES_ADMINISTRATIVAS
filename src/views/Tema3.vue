@@ -82,7 +82,7 @@
     .row.justify-content-center.mt-5(data-aos="fade-left")
       .col-10
         .titulo-sexto.color-acento-contenido
-          h5 Figura 10: 
+          h5 Figura 10.
           span <i>Conceptos fundamentales ISO 9000.</i>      
         figure
           img(src='@/assets/curso/temas/tema3/img7.svg', alt='Calidad: capacidad de satisfacer a los clientes, mediante el valor percibido y el beneficio para el cliente. Sistema de gestión de calidad: gestiona los procesos que interactúan para generar valor a las organizaciones. Contexto de una organización: entorno interno y externo, en el cual interactúa la organización. Partes interesadas: son las persona u organizaciones que pueden afectar positiva o negativamente la organización. Apoyo: el soporte del SGC son las personas, procesos, toma de decisiones y comunicación. ')
@@ -121,7 +121,7 @@
     .row.justify-content-center.mt-5(data-aos="fade-left")
       .col-10
         .titulo-sexto.color-acento-contenido
-          h5 Figura 11: 
+          h5 Figura 11.
           span <i>Términos relativos al cliente.</i>      
         figure
           img(src='@/assets/curso/temas/tema3/img11.svg', alt='Se evidencia una gráfica circular a manera de ciclo que muestra los siguientes 6 pasos: 1. Satisfacción del cliente. 2. Quejas. 4. Servicio al cliente. 5. Código de conducta de la satisfacción del cliente. 6. Conflicto. 7. Retroalimentación.')
