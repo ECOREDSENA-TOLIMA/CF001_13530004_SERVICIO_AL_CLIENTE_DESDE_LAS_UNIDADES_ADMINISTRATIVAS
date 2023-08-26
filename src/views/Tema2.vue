@@ -167,7 +167,7 @@
           //- estas clases tambien tienen un modificador --borde
           .tarjeta(style="background-color:#DEF8F3")
             .p-4
-              p <b>El sector terciario o de comercio y servicio</b>, tiene como principal característica la enajenación de productos tangibles e intangibles; aquí encuentran actividades como vestuario, alimentos, asesoría, educación, salud.
+              p <b>El sector terciario o de comercio y servicio</b>, tiene como principal característica la enajenación de productos tangibles e intangibles; aquí encuentran actividades como vestuario, alimentos, asesoría, educación y salud.
 
     .row.mt-5
       .col-4(data-aos="fade-right")
@@ -230,7 +230,7 @@
           
           .titulo-sexto.color-acento-contenido
             h5 Figura 6.
-            span <i>Estructura funcional.</i>      
+            span <i>Estructura funcional</i>      
           figure
             img(src='@/assets/curso/temas/tema2/img19.svg', alt='Se muestra la estructura organizacional funcional de una empresa teniendo como cabeza al CEO y desde allí se despliegan las áreas de marketing, ventas y finanzas.')
             figcaption Nota. Tomada de Thepowermba (s. f.)
@@ -239,16 +239,16 @@
         p Se usa en empresas de un tamaño mediano y pequeñas, en las que las actividades se realizan sin intermediarios y tiene comunicación directa de autoridad.
         .titulo-sexto.color-acento-contenido
           h5 Figura 7. 
-          span <i>Estructura lineal.</i>      
+          span <i>Estructura lineal</i>      
         figure
-          img(src='@/assets/curso/temas/tema2/img20.png', alt='Se muestra una gráfica a manera de organizador visual desde donde se hace la estructura lineal de la empresa iniciando por la dirección general que sería el capitán y 3 pelotones que serían los departamentos de compras, producción y ventas. Dentro del pelotón de compras están los escuadrones de almacén y compras. Dentro del pelotón de producción está el escuadrón de técnica y calidad. Y dentro del pelotón de ventas está el escuadrón comercial y de marketing.')          
+          img(src='@/assets/curso/temas/tema2/img20.svg', alt='Se muestra una gráfica a manera de organizador visual desde donde se hace la estructura lineal de la empresa iniciando por la dirección general que sería el capitán y 3 pelotones que serían los departamentos de compras, producción y ventas. Dentro del pelotón de compras están los escuadrones de almacén y compras. Dentro del pelotón de producción está el escuadrón de técnica y calidad. Y dentro del pelotón de ventas está el escuadrón comercial y de marketing.')          
           figcaption Nota. Tomada de Economipedia (s. f.).
 
       div(titulo="Estructura divisional")
         p En esta estructura se divide la organización en procesos o proyectos, y por zonas geográficas o productos; se utiliza mucho para las empresas que emplean diferentes líneas de productos o servicios. 
         .titulo-sexto.color-acento-contenido
           h5 Figura 8.
-          span <i>Estructura divisional.</i>      
+          span <i>Estructura divisional</i>      
         figure
           img(src='@/assets/curso/temas/tema2/img21.png', alt='Se muestra la estructura organizacional divisional o por producto. La encabeza el CEO y desde ahí se despliegan la marca 1, la marca 2 y la marca 3. Cada una de las marcas desplega marketing, ventas y finanzas.')
           figcaption Nota. Tomada de Thepowermba (s. f.).
@@ -324,7 +324,7 @@
 
         SlyderF(columnas="col-lg-6 col-xl-4")
           .tarjeta.color-primario.p-4
-            p <b>Objetivo:</b> describe claramente lo que el proceso y procedimiento permite lograr  al interior de la organización 
+            p <b>Objetivo:</b> describe claramente lo que el proceso y procedimiento permite lograr  al interior de la organización. 
 
           .tarjeta.color-acento-contenido.p-4
             p <b>Alcance:</b> identifica qué, dónde, cuándo, quién, cómo se generan los procesos y procedimientos y cuál es su límite de aplicación al interior de la organización.
@@ -376,7 +376,7 @@
       .col-10
         .titulo-sexto.color-acento-contenido
           h5 Figura 9. 
-          span <i>Plataforma estratégica.</i>      
+          span <i>Plataforma estratégica</i>      
         figure
           img(src='@/assets/curso/temas/tema2/img25.svg', alt='Misión: describe lo que hace la empresa, su razón de ser. Visión: lo que desea lograr o como se ve en el largo tiempo. Objetivos estratégicos: son los objetivos y metas a largo plazo de las empresas, las cuales permiten cumplir la misión o visión de la empresa. Valores corporativos: principios y valores que caracterizan a una empresa.  Políticas: son los lineamientos con el cual se rige el marco normativo de una empresa. Código de ética: se establecen normas por medio de la cual se rige la empresa y las personas.')          
 

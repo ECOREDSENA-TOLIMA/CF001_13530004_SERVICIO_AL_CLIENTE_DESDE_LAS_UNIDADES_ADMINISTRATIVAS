@@ -149,47 +149,9 @@
       .col-10
         .titulo-sexto.color-acento-contenido
           h5 Figura 1.
-          span <i>Ciclo de servicio al cliente.</i>
-        .row.justify-content-center
-          .col-4
-            .tabla-b.color-secundario(style="overflow-x: hidden")
-              .tabla-b__header
-                h4.mb-0 Contacto
-              table(style="background-color: #F6EFE9")
-                ul.lista-ul.p-3
-                  li 
-                    i.lista-ul__vineta(style="color: #833343")
-                    | Identificación del momento de verdad.
-                  li 
-                    i.lista-ul__vineta(style="color: #833343")
-                    | Requerimientos.
-                  li 
-                    i.lista-ul__vineta(style="color: #833343")
-                    | Planes de acción.
-
-          .col-4
-            .tabla-b.color-secundario(style="overflow-x: hidden")
-              .tabla-b__header
-                h4.mb-0 Venta 
-              table(style="background-color: #F6EFE9")
-                tr
-                  td  
-                    ul.lista-ul
-                      li 
-                        i.lista-ul__vineta(style="color: #833343")
-                        | Priorización de áreas.
-
-          .col-4
-            .tabla-b.color-secundario(style="overflow-x: hidden")
-              .tabla-b__header
-                h4.mb-0 Posventa
-              table(style="background-color: #F6EFE9")
-                tr
-                  td  
-                    ul.lista-ul
-                      li 
-                        i.lista-ul__vineta(style="color: #833343")
-                        | Encuesta de satisfacción. 
+          span <i>Ciclo de servicio al cliente</i>
+        figure.mt-5
+          img(src='@/assets/curso/temas/tema1/img50.svg')
 
         p(data-aos="fade-right").mt-5 En este ciclo de servicio se identifican el proceso de compra o adquisición de servicio por parte del cliente, de la siguiente manera:
 
@@ -216,7 +178,7 @@
           .col-8 
             .titulo-sexto.color-acento-contenido
               h5 Figura 2.
-              span <i>Ciclo de marketing y comunicación.</i>
+              span <i>Ciclo de marketing y comunicación</i>
             figure
               img(src='@/assets/curso/temas/tema1/img21.svg', alt='Se muestra un ciclo circular en los siguientes pasos: 1. Estrategias de marketing y publicidad. 2. Conocimiento del producto o servicio. 3. Comunicación con el cliente. 4. Satisfacción.')    
 
@@ -226,7 +188,7 @@
         .col-8 
             .titulo-sexto.color-acento-contenido.mt-5
               h5 Figura 3.
-              span <i>Ciclo de ventas.</i>
+              span <i>Ciclo de ventas</i>
             figure
               img(src='@/assets/curso/temas/tema1/img22.svg', alt='Se muestra un ciclo circular en los siguientes pasos: 1. Contacto con el cliente. 2. Información. 3. Venta de producto o servicio. 4. Posventa.')    
         .col-10
@@ -313,7 +275,7 @@
       .col-10
         .titulo-sexto.color-acento-contenido
           h5 Figura 4.
-          span <i>Modelos técnicas de servicio y ventas.</i>
+          span <i>Modelos técnicas de servicio y ventas</i>
 
         ImagenInfografica.color-acento-botones
           template(v-slot:imagen)
@@ -448,7 +410,7 @@
       .col-10
         .titulo-sexto.color-acento-contenido
           h5 Figura 5. 
-          span <i>ISO 9001:2015 - Cliente.</i>
+          span <i>ISO 9001:2015 - Cliente</i>
 
         figure
           img(src='@/assets/curso/temas/tema1/img32.svg', alt='Se muestra la gráfica de un embudo en el que ingresan 3 elementos y sale uno, los tres elementos que ingresan en la parte ancha son: operación, enfoque alta dirección y evaluación del desempeño y por el lado angosto sale Servicio al Cliente ISO 9001:2015.')
@@ -503,7 +465,7 @@
               img(src='@/assets/curso/temas/tema1/img34.png', alt='')
 
 
-      .tarjeta.p-4(titulo="Recopilación de información")(style="background-color:#DEF8F3")
+      .tarjeta.p-4(titulo="Recopilación de <br> información")(style="background-color:#DEF8F3")
         .row.justify-content-center 
           .col-xl-6
             p Se debe estar atento a lo que requiere el cliente, cuál es su necesidad a satisfacer, así como las dudas e inquietudes que pueda presentar en el momento de la comunicación, por lo cual la escucha activa es fundamental en todo el proceso.
@@ -511,7 +473,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/img35.png', alt='')
 
-      .tarjeta.p-4(titulo="Resolución al conflicto (necesidad)")(style="background-color:#DEF8F3")
+      .tarjeta.p-4(titulo="Resolución al conflicto <br> (necesidad)")(style="background-color:#DEF8F3")
         .row.justify-content-center 
           .col-xl-6
             p Se debe dar atención a las quejas o reclamos que el mismo pueda tener, y de esta forma poder dar finalización a la demanda del cliente.
