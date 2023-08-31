@@ -70,13 +70,13 @@
               th Sociedad de responsabilidad limitada
               th Empresa unipersonal
             tr
-              td *Socios: mínimo dos (2) socios, responden solidaria e ilimitadamente <br> *Razón Social: & Cìa,, Hnos, e Hijos
+              td *Socios: mínimo dos (2) socios, responden solidaria e ilimitadamente <br> *Razón Social: & Cìa, Hnos, e Hijos
               td *Socios: socios comanditarios con responsabilidad limitada de acuerdo con los aportes y socios colectivos, responsabilidad ilimitada; mínimo debe existir un socio gestor y máximo 25 socios comanditarios.
               td *Socios: mínimo dos (2) máximo 25, responden hasta el monto de los aportes.
               td *Socios: una persona natural o jurídica, responsabilidad limitada al monto de los aportes.
             tr
-              td *Razón Social: & Cìa,, Hnos, e Hijos
-              td *Razón Social: & Cía,, Compañía, S. en C
+              td *Razón Social: & Cìa, Hnos, e Hijos
+              td *Razón Social: & Cía, Compañía, S. en C
               td *Razón Social: Limitada o LTDA
               td *Razón Social: Empresa, Unipersonal o E.U.
 
@@ -268,7 +268,7 @@
             
             .col-md-8.mb-4.mb-md-0
               p El manual de procesos y procedimientos es una herramienta fundamental que proporciona la orientación en la operación y ejecución de los procesos al interior de las organizaciones, los cuales se deben describir de una forma lógica, técnica y detallada, donde se indica quién, cómo, cuándo, dónde y para qué se realizan los procesos y procedimientos mediante la implementación del diagramas de flujo que ilustran y permiten un adecuado entendimiento de los procesos y procedimientos por parte de la organización. 
-              p El manual de procesos y procedimientos debe definir y detallar expresamente cada objetivos, alcance, actividades a desarrollar, insumos requeridos, cronograma de desarrollo y los empleados responsables de realizar los análisis de cada puesto de trabajo, procesos y procedimientos; este grupo de empleados expertos deberá identificar los responsables de cada proceso y qué gestión deberá realizar cada uno al interior de las organizaciones.
+              p El manual de procesos y procedimientos debe definir y detallar expresamente cada objetivo, alcance, actividades a desarrollar, insumos requeridos, cronograma de desarrollo y los empleados responsables de realizar los análisis de cada puesto de trabajo, procesos y procedimientos; este grupo de empleados expertos deberá identificar los responsables de cada proceso y qué gestión deberá realizar cada uno al interior de las organizaciones.
 
             .col-md-4
               figure

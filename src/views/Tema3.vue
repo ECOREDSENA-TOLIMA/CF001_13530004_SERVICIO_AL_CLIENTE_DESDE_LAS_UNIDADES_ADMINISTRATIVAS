@@ -93,28 +93,39 @@
 
     p(data-aos="fade-right") De acuerdo con la norma ISO 9000 el servicio es el resultado del proceso de una organización, que involucra, al menos, una actividad necesariamente llevada a cabo entre la organización y el cliente. El servicio, por lo general, abarca las siguientes características: 
 
-    .row.mt-5 
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              p Los elementos dominantes de un servicio son generalmente intangibles.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img8.png')})`}")
+    .row.justify-content-center.mt-5
+      .col-lg-4.col-md-8.col-10.mb-lg-0.mb-4(data-aos="fade-right")
+        .tarjetas-up(@mouseover="mostrarIndicador = false")
+          .indicador--hover(v-if="mostrarIndicador")
+          img(src='@/assets/curso/temas/tema3/img8.png' alt='AvatarTop' style='width:400px')
+          .tarjetas-up_card.p-xl-4.p-lg-3.p-4(style="background-color: #DEF8F3")
+            .title.d-flex.align-items-center.mb-xl-5.mb-lg-4.mb-md-5.mb-4
+              span
+                i.fas.fa-caret-up.fa-2x.me-3
+                i.fas.fa-caret-down.fa-2x.me-3
+            p.mb-0 Los elementos dominantes de un servicio son generalmente intangibles.
+      .col-lg-4.col-md-8.col-10.mb-lg-0.mb-4(data-aos="fade-up")
+        .tarjetas-up(@mouseover="mostrarIndicador = false")
+          .indicador--hover(v-if="mostrarIndicador")
+          img(src='@/assets/curso/temas/tema3/img9.png' alt='AvatarTop' style='width:400px')
+          .tarjetas-up_card.p-xl-4.p-lg-3.p-4(style="background-color: #DEF8F3")
+            .title.d-flex.align-items-center.mb-xl-5.mb-lg-4.mb-md-5.mb-4
+              span
+                i.fas.fa-caret-up.fa-2x.me-3
+                i.fas.fa-caret-down.fa-2x.me-3
+            p.mb-0 Los servicios con frecuencia involucran actividades en la interfaz, relación y requisitos del cliente.
+      .col-lg-4.col-md-8.col-10.mb-lg-0.mb-4(data-aos="fade-left")
+        .tarjetas-up(@mouseover="mostrarIndicador = false")
+          .indicador--hover(v-if="mostrarIndicador")
+          img(src='@/assets/curso/temas/tema3/img10.png' alt='AvatarTop' style='width:400px')
+          .tarjetas-up_card.p-xl-4.p-lg-3.p-4(style="background-color: #DEF8F3")
+            .title.d-flex.align-items-center.mb-xl-5.mb-lg-4.mb-md-5.mb-4
+              span
+                i.fas.fa-caret-up.fa-2x.me-3
+                i.fas.fa-caret-down.fa-2x.me-3
+            p.mb-0 Un servicio generalmente se experimenta por el cliente.
 
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img9.png')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              p Los servicios con frecuencia involucran actividades en la interfaz, relación y requisitos del cliente.
-
-      .col-sm-6.col-xl-4.mb-4.mb-sm-0
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img10.png')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              p Un servicio generalmente se experimenta por el cliente.
+    
 
     p(data-aos="fade-right").mt-5 A lo largo del trabajo en servicio al cliente el involucrado número uno es el cliente que por lo general está referido en alguno de los siguientes términos relativos, estos términos se usan para caracterizarlo a lo largo del proceso:
 

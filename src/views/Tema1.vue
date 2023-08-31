@@ -402,7 +402,7 @@
           .bloque-texto-g__texto.p-4
             p.mb-0 Un excelente servicio al cliente debe ser una de las principales estrategias de las organizaciones, pues de este depende la fidelidad del cliente; las organizaciones pueden tener un excelente producto o portafolio de servicios, pero no influyen si el servicio al cliente no es el adecuado; lo cual no genera valor para la organización.
     
-    p(data-aos="fade-right").mt-5 La construcción de una adecuada fase de procesos de servicio al cliente es vital dentro de la organización, ellos permite ofrecer un excelente servicio para fidelizar al cliente activo y atraer a los clientes potenciales.
+    p(data-aos="fade-right").mt-5 La construcción de una adecuada fase de procesos de servicio al cliente es vital dentro de la organización, ello permite ofrecer un excelente servicio para fidelizar al cliente activo y atraer a los clientes potenciales.
     p(data-aos="fade-right") La estrategia de proceso de servicio al cliente debe involucrar tanto al cliente externo como al interno, quien tiene una relación con la organización y puede adquirir los productos o servicios para su consumo o el de otros; dentro de los clientes internos se pueden encontrar los distribuidores, el franquiciado, los importadores, los agentes externos, entre otros.
     p(data-aos="fade-right") Los procesos de servicio al cliente dependen de cada organización, del sector en el cual desempeñan sus actividades, del tamaño, de la localización, de la cultura organizacional, del tipo de producto o servicio; sin embargo, la norma internacional ISO 9001 de 2015, sistema de gestión de la calidad, establece los requisitos enfocados al cliente.
    
@@ -506,33 +506,42 @@
               p El portafolio de servicio contiene la plataforma estratégica de la organización (visión, misión, objetivos, políticas de calidad), los principales proveedores y clientes más importantes, los productos y servicios ofertados, y los canales de comunicación de la organización, estos pueden ser de servicios físicos o digitales, y se adaptan o diseñan de acuerdo con las necesidades de la organización o de los clientes.
 
     p(data-aos="fade-right").mt-5 Los canales de comunicación hacen referencia al medio por el cual se transmite el mensaje del emisor al receptor y son el primer punto de contacto entre la entidad y el consumidor; con los avances tecnológicos los modelos de canales de comunicación han cambiado de lo tradicional a lo moderno.
-    p(data-aos="fade-right") Dentro de los canales de comunicación, se presentan la comunicación personal, interpersonal e interactivo, tal como de indica a continuación: 
+    p(data-aos="fade-right") Dentro de los canales de comunicación, se presentan la comunicación personal, interpersonal e interactivo, tal como se indica a continuación: 
 
-    .row.mt-5 
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h1 El canal de comunicación personal 
-              p Permite tener una mayor interacción con el consumidor, y se encuentran medios como la atención en oficina, llamada telefónica, o chat.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img39.png')})`}")
-
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img40.png')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h1 El canal interpersonal
-              p Es la comunicación que se emite a muchos receptores, pero está dirigida a un grupo de personas específico; como medio se encuentran el e-mail, circulares y diarios oficiales.
-
-      .col-sm-6.col-xl-4.mb-4.mb-sm-0
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img41.png')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h1 Los canales interactivos
-              p Son los que permiten tener una mayor participación en los medios digitales, aquí el consumidor interactúa y espera una respuesta de la entidad en esta interacción; el medio que más se emplea son las redes sociales.
+    .row.justify-content-center.mt-5
+      .col-lg-4.col-md-8.col-10.mb-lg-0.mb-4(data-aos="fade-right")
+        .tarjetas-up(@mouseover="mostrarIndicador = false")
+          .indicador--hover(v-if="mostrarIndicador")
+          img(src='@/assets/curso/temas/tema1/img39.png' alt='AvatarTop' style='width:400px')
+          .tarjetas-up_card.p-xl-4.p-lg-3.p-4(style="background-color: #DEF8F3")
+            .title.d-flex.align-items-center.mb-xl-5.mb-lg-4.mb-md-5.mb-4
+              span
+                i.fas.fa-caret-up.fa-2x.me-3
+                i.fas.fa-caret-down.fa-2x.me-3
+              h4.mb-0 El canal de comunicación personal 
+            p.mb-0 Permite tener una mayor interacción con el consumidor, y se encuentran medios como la atención en oficina, llamada telefónica, o chat.
+      .col-lg-4.col-md-8.col-10.mb-lg-0.mb-4(data-aos="fade-up")
+        .tarjetas-up(@mouseover="mostrarIndicador = false")
+          .indicador--hover(v-if="mostrarIndicador")
+          img(src='@/assets/curso/temas/tema1/img40.png' alt='AvatarTop' style='width:400px')
+          .tarjetas-up_card.p-xl-4.p-lg-3.p-4(style="background-color: #DEF8F3")
+            .title.d-flex.align-items-center.mb-xl-5.mb-lg-4.mb-md-5.mb-4
+              span
+                i.fas.fa-caret-up.fa-2x.me-3
+                i.fas.fa-caret-down.fa-2x.me-3
+              h4.mb-0 El canal interpersonal
+            p.mb-0 Es la comunicación que se emite a muchos receptores, pero está dirigida a un grupo de personas específico; como medio se encuentran el e-mail, circulares y diarios oficiales.
+      .col-lg-4.col-md-8.col-10.mb-lg-0.mb-4(data-aos="fade-left")
+        .tarjetas-up(@mouseover="mostrarIndicador = false")
+          .indicador--hover(v-if="mostrarIndicador")
+          img(src='@/assets/curso/temas/tema1/img41.png' alt='AvatarTop' style='width:400px')
+          .tarjetas-up_card.p-xl-4.p-lg-3.p-4(style="background-color: #DEF8F3")
+            .title.d-flex.align-items-center.mb-xl-5.mb-lg-4.mb-md-5.mb-4
+              span
+                i.fas.fa-caret-up.fa-2x.me-3
+                i.fas.fa-caret-down.fa-2x.me-3
+              h4.mb-0 Los canales interactivos
+            p.mb-0 Son los que permiten tener una mayor participación en los medios digitales, aquí el consumidor interactúa y espera una respuesta de la entidad en esta interacción; el medio que más se emplea son las redes sociales.
 
     separador
     #t_1_5.titulo-segundo.color-acento-contenido
@@ -556,7 +565,7 @@
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-6.mb-4.mb-md-0
             .h5 Procedimiento
-            p El cliente da su opinión respecto a la metodología empleada por la organización en todo el procedimientos de adquisición del producto o servicio, la forma en que se adquiere, el canal de distribución, forma de pago y otros elementos clave que permiten que el cliente cumpla sus expectativas. 
+            p El cliente da su opinión respecto a la metodología empleada por la organización en todo el procedimiento de adquisición del producto o servicio, la forma en que se adquiere, el canal de distribución, forma de pago y otros elementos clave que permiten que el cliente cumpla sus expectativas. 
 
           .col-md-6
             figure
