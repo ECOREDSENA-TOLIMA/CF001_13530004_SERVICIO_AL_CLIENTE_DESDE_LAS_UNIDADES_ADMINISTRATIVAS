@@ -41,7 +41,7 @@
     #t_3_1.titulo-segundo.color-acento-contenido
       h2 3.1  Objetivos y generalidades 
 
-    p(data-aos="fade-right") El objetivo de la norma ISO 9000 permite a las organizaciones tomar conciencia respecto a las actividades y compromiso que tienen con sus clientes que buscan satisfacer unas necesidades y cumplir con sus expectativas; por lo cual las organizaciones deben propender por estandarizar sus procesos para ofrecer bienes y servicios de calidad.
+    p(data-aos="fade-right") El objetivo de la norma ISO 9000, permite a las organizaciones tomar conciencia respecto a las actividades y compromiso que tienen con sus clientes que buscan satisfacer unas necesidades y cumplir con sus expectativas; por lo cual las organizaciones deben propender por estandarizar sus procesos para ofrecer bienes y servicios de calidad.
     p(data-aos="fade-right") De acuerdo con la Norma ISO 9000 los conceptos y principios del sistema de gestión de la calidad son universalmente y aplicables a cada una de las organizaciones, clientes y proveedores que busca, así: 
 
     SlyderF(columnas="col-lg-6 col-xl-4").mt-5

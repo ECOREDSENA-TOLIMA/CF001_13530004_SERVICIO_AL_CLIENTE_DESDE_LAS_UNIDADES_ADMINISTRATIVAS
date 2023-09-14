@@ -44,7 +44,7 @@
               
               .col-4
                 h4 Consumidor emocional
-                p Los productos o servicios que adquiere le debe generar un sentimiento de felicidad, los adquieren con base en ese sentimiento.
+                p Los productos o servicios que adquiere le deben generar un sentimiento de felicidad, los adquieren con base en ese sentimiento.
             
             .row.justify-content-center.align-items-center
               .col-2
@@ -92,8 +92,8 @@
                   img(src='@/assets/curso/temas/tema1/img9.svg')
               
               .col-4
-                h4 Consumidor e-commerce
-                p Prefiere adquirir productos o servicios a través del e-commerce, por facilidad y comodidad.
+                h4 Consumidor <i>e-commerce</i>
+                p Prefiere adquirir productos o servicios a través del <i>e-commerce</i>, por facilidad y comodidad.
 
             .row.justify-content-center.align-items-center
               .col-2
@@ -151,8 +151,7 @@
           h5 Figura 1.
           span <i>Ciclo de servicio al cliente</i>
         figure.mt-5
-          img(src='@/assets/curso/temas/tema1/img50.svg')
-
+          img(src='@/assets/curso/temas/tema1/img50.svg', alt='Se presenta el cliclo del servicio al cliente en tres pasos: Primero Contacto Identificación del momento de verdad. Requerimientos. Planes de acción. Segundo Venta Priorización de áreas. Tercero PosventaEncuesta de satisfacción.') 
         p(data-aos="fade-right").mt-5 En este ciclo de servicio se identifican el proceso de compra o adquisición de servicio por parte del cliente, de la siguiente manera:
 
         figure.mt-5
@@ -213,13 +212,14 @@
             p Es la razón de ser de la organización, se debe propender para que todas las áreas de la organización busquen satisfacer las necesidades de los clientes, se cumpla con sus expectativas y se logre su fidelización. Sobre el cliente deben girar la estrategia, el personal y el sistema, debido a que es el centro de la organización, estos clientes son internos y externos, activos y potenciales.
 
           .tarjeta.color-acento-contenido.p-3(x="76%" y="35%" numero="+")
-            p Con esta  se busca crear valor para las empresas mediante la calidad del servicio al cliente; una vez se identifica al cliente, se crean todas las estrategias para satisfacer sus necesidades, aquí toda la organización debe estar comprometida con la calidad del servicio al cliente.
+            p Con esta se busca crear valor para las empresas mediante la calidad del servicio al cliente; una vez se identifica al cliente, se crean todas las estrategias para satisfacer sus necesidades, aquí toda la organización debe estar comprometida con la calidad del servicio al cliente.
 
           .tarjeta.color-acento-contenido.p-3(x="23%" y="73.5%" numero="+")
-            p El personal o colaboradores son los miembros de la organización que deben estar comprometidos con la estrategia de servicio, debido a que tienen el contacto directo con los clientes, e implementar los protocolos de servicio, técnicas de comunicación y técnicas de ventas adecuadas.
+            p Son las herramientas y técnicas que se emplean en la prestación de servicios en la organización, están dirigidas al personal y clientes; estos sistemas se encuentran plasmados en los manuales de funciones y procedimientos de la organización. 
+            
 
           .tarjeta.color-acento-contenido.p-3(x="76%" y="73.5%" numero="+")
-            p Son las herramientas y técnicas que se emplean en la prestación de servicios en la organización, están dirigidas al personal y clientes; estos sistemas se encuentran plasmados en los manuales de funciones y procedimientos de la organización. 
+            p El personal o colaboradores son los miembros de la organización que deben estar comprometidos con la estrategia de servicio, debido a que tienen el contacto directo con los clientes, e implementar los protocolos de servicio, técnicas de comunicación y técnicas de ventas adecuadas.
 
     p(data-aos="fade-right").mt-5 La integración de estos elementos permite a la organización ofrecer un servicio de calidad que satisface y cumple las expectativas de los clientes, y en el que todas las áreas y personal de la organización se encuentran comprometidas.
     p(data-aos="fade-right") Al ser el cliente el corazón de la organización, el <b>momento de verdad</b> permite al cliente entrar en contacto con la organización y esta indaga las necesidades de los clientes y las expectativas que tienen frente a la organización.
@@ -372,7 +372,7 @@
                 | Necesidad del cliente. 
 
     p(data-aos="fade-right").mt-5 De acuerdo con estos modelos tradicionales, se establece un procedimiento de técnicas de servicio y ventas en el cual se debe captar la atención e interés del cliente, para dar a conocer el portafolio de producto de acuerdo con las necesidades manifestadas y con el que se debe persuadir para que adquiera los productos y se cierra o finaliza con la prestación de un servicio de calidad. 
-    p(data-aos="fade-right") Las organizaciones dentro de sus técnicas de servicio y ventas deben realizar seguimiento a las misma después del cierre para conocer si se cumplieron con las expectativas, se generó fidelidad por parte de los clientes y crear planes de mejora, para ello identifique el proceso técnico de servicio al cliente.
+    p(data-aos="fade-right") Las organizaciones dentro de sus técnicas de servicio y ventas deben realizar seguimiento a las mismasº   después del cierre para conocer si se cumplieron con las expectativas, se generó fidelidad por parte de los clientes y crear planes de mejora, para ello identifique el proceso técnico de servicio al cliente.
 
     .row.justify-content-center.mt-5(data-aos="fade-left")
       .col-lg-6
@@ -443,7 +443,7 @@
               | Establecer los requisitos específicos para las acciones de contingencia, cuando sea pertinente.
 
     p(data-aos="fade-right").mt-5 Dentro del proceso de servicio al cliente, se tiene acceso a la información del cliente por lo cual, según la ISO 9001:2015, la organización debe cuidar la propiedad perteneciente a los clientes o a proveedores externos mientras esté bajo el control o uso de la organización; esto como un proceso de operación.
-    p(data-aos="fade-right") En cuanto a la evaluación de desempeño, se debe propender como objetivo la satisfacción del cliente, por lo que se debe realizar el correcto seguimiento de la percepción de los clientes evidenciando el cumplimiento de sus necesidades y expectativas.
+    p(data-aos="fade-right") En cuanto a la evaluación de desempeño, se debe propender como objetivo la satisfacción del cliente, por lo que se debe realizar el correcto seguimiento de la percepción de los clientes, evidenciando el cumplimiento de sus necesidades y expectativas.
 
     .row.justify-content-center 
       .col-10 

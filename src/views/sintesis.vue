@@ -7,12 +7,12 @@
       h5 <b>Servicio al cliente desde las unidades administrativas de la organización</b>
       br
       span <i>Síntesis: Servicio al cliente en las organizaciones</i>
-    p.mb-5.mt-5 El servicio al cliente es la dimensión más explorada por las empresas que están en desarrollo porque a partir de esa relación se puede proyectar impacto y crecimiento empresarial ya que se trabaja con personas que siempre tienen una opinión. En la siguiente organizador gráficos se muestran los elementos más relevantes trabajados en el presente componente formativo con ese objetivo:
+    p.mb-5.mt-5 El servicio al cliente es la dimensión más explorada por las empresas que están en desarrollo porque a partir de esa relación se puede proyectar impacto y crecimiento empresarial ya que se trabaja con personas que siempre tienen una opinión. En la siguiente gráfica se muestran los elementos más relevantes trabajados en el presente componente formativo con ese objetivo:
 
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.png", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.png", alt="Síntesis. Servicio al cliente en las organizaciones. Se desarrolla orientado al enfoque del cliente, la empresa y los estándares establecidos en la Norma ISO 9000.")
       .col-auto
         a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono

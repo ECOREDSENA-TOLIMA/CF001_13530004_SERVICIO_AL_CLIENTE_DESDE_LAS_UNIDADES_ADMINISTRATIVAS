@@ -40,7 +40,7 @@
     #t_2_1.titulo-segundo.color-acento-contenido
       h2 2.1  Tipo de empresas 
 
-    p(data-aos="fade-right") Las empresas se pueden clasificar de acuerdo con el sector económico, actividad económica, ubicación geográfica, forma jurídica, naturaleza además de otras características que posean las empresas, recordando que cada una tiene una identificación única con personería jurídica. 
+    p(data-aos="fade-right") Las empresas se pueden clasificar de acuerdo con el sector económico, actividad económica, ubicación geográfica, forma jurídica, naturaleza, además de otras características que posean las empresas, recordando que cada una tiene una identificación única con personería jurídica. 
 
     .tarjeta.p-4.mt-5(data-aos="fade-left")(style="background-color: #DEF8F3")
       .row.align-items-center
@@ -267,7 +267,7 @@
           .row.align-items-center
             
             .col-md-8.mb-4.mb-md-0
-              p El manual de procesos y procedimientos es una herramienta fundamental que proporciona la orientación en la operación y ejecución de los procesos al interior de las organizaciones, los cuales se deben describir de una forma lógica, técnica y detallada, donde se indica quién, cómo, cuándo, dónde y para qué se realizan los procesos y procedimientos mediante la implementación del diagramas de flujo que ilustran y permiten un adecuado entendimiento de los procesos y procedimientos por parte de la organización. 
+              p El manual de procesos y procedimientos es una herramienta fundamental que proporciona la orientación en la operación y ejecución de los procesos al interior de las organizaciones, los cuales se deben describir de una forma lógica, técnica y detallada, donde se indica quién, cómo, cuándo, dónde y para qué se realizan los procesos y procedimientos mediante la implementación de diagramas de flujo que ilustran y permiten un adecuado entendimiento de los procesos y procedimientos por parte de la organización. 
               p El manual de procesos y procedimientos debe definir y detallar expresamente cada objetivo, alcance, actividades a desarrollar, insumos requeridos, cronograma de desarrollo y los empleados responsables de realizar los análisis de cada puesto de trabajo, procesos y procedimientos; este grupo de empleados expertos deberá identificar los responsables de cada proceso y qué gestión deberá realizar cada uno al interior de las organizaciones.
 
             .col-md-4
@@ -385,7 +385,7 @@
       h2 2.5 Plataforma estratégica
 
     p(data-aos="fade-right") Al estar las empresas ubicadas en una localidad, región o país, se presenta una cultura organizacional influenciada por su entorno y en la que se encuentra inmersa la plataforma estratégica de las empresas al incluir los valores, normas y políticas que la rigen.
-    p(data-aos="fade-right") La cultura organizacional está formada por tres niveles esenciales de acuerdo con Shein: 
+    p(data-aos="fade-right") La cultura organizacional está formada por tres niveles esenciales de acuerdo con <i>Shein</i>: 
 
     .row.mt-5(data-aos="fade-left")
       .col-md-6.col-lg.mb-5.mb-lg-0
@@ -456,14 +456,14 @@ export default {
       {
         titulo: 'Modelos de producción capitalista',
         texto:
-          'El capitalismo se caracteriza por que los bienes y servicios tienen un valor monetario y el trabajo es remunerado, se origina con la caída del feudalismo en el siglo XV, donde nace la burguesía como una nueva clase social de Europa, los burgueses eran lo plebeyos de la época del feudalismo quienes se convirtieron en los dueños de las primeras empresas.',
+          'El capitalismo se caracteriza por que los bienes y servicios tienen un valor monetario y el trabajo es remunerado, se origina con la caída del feudalismo en el siglo XV, donde nace la burguesía como una nueva clase social de Europa, los burgueses eran los plebeyos de la época del feudalismo quienes se convirtieron en los dueños de las primeras empresas.',
         imagen: require('@/assets/curso/temas/tema2/img4.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
         titulo: 'Modelo de producción socialista',
         texto:
-          'Es un modelo de organización política, social y económica se caracteriza porque los bienes y servicios, tienen un valor de acuerdo con su utilidad, por lo cual la producción se centra en las necesidades de las personas y no en generar riquezas para los empresarios.',
+          'Es un modelo de organización política, social y económica, se caracteriza porque los bienes y servicios, tienen un valor de acuerdo con su utilidad, por lo cual la producción se centra en las necesidades de las personas y no en generar riquezas para los empresarios.',
         imagen: require('@/assets/curso/temas/tema2/img5.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
