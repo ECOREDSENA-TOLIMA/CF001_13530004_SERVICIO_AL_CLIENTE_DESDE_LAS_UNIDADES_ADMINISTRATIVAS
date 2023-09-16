@@ -232,7 +232,7 @@
             h5 Figura 6.
             span <i>Estructura funcional</i>      
           figure
-            img(src='@/assets/curso/temas/tema2/img19.svg', alt='Se muestra la estructura organizacional funcional de una empresa teniendo como cabeza al CEO y desde allí se despliegan las áreas de marketing, ventas y finanzas.')
+            img(src='@/assets/curso/temas/tema2/img19.svg', alt='Figura 6. Estructura organización funcional. Liderada por un CEO o Director, e integrada por las áreas de marketing, ventas y finanzas.')
             figcaption Nota. Tomada de Thepowermba (s. f.)
 
       div(titulo="Estructura lineal")
@@ -241,7 +241,7 @@
           h5 Figura 7. 
           span <i>Estructura lineal</i>      
         figure
-          img(src='@/assets/curso/temas/tema2/img20.svg', alt='Se muestra una gráfica a manera de organizador visual desde donde se hace la estructura lineal de la empresa iniciando por la dirección general que sería el capitán y 3 pelotones que serían los departamentos de compras, producción y ventas. Dentro del pelotón de compras están los escuadrones de almacén y compras. Dentro del pelotón de producción está el escuadrón de técnica y calidad. Y dentro del pelotón de ventas está el escuadrón comercial y de marketing.')          
+          img(src='@/assets/curso/temas/tema2/img20.svg', alt='Figura 7. Estructura lineal dirigida por la dirección general capitán y compuesta por departamentos de compras pelotón, producción pelotón y ventas pelotón y cada uno de los departamento está integrado por secciones.')          
           figcaption Nota. Tomada de Economipedia (s. f.).
 
       div(titulo="Estructura divisional")
@@ -250,7 +250,7 @@
           h5 Figura 8.
           span <i>Estructura divisional</i>      
         figure
-          img(src='@/assets/curso/temas/tema2/img21.png', alt='Se muestra la estructura organizacional divisional o por producto. La encabeza el CEO y desde ahí se despliegan la marca 1, la marca 2 y la marca 3. Cada una de las marcas desplega marketing, ventas y finanzas.')
+          img(src='@/assets/curso/temas/tema2/img21.png', alt='Figura 8. Estructura divisional corresponde a una estructura organizacional divisional por marca o producto. ')
           figcaption Nota. Tomada de Thepowermba (s. f.).
 
 
@@ -291,9 +291,11 @@
             | Validación y aprobación por parte de los empleados.
 
     p(data-aos="fade-right").mt-5 Con la implementación del manual de procesos y procedimientos y la adecuada documentación de los procesos al interior de las empresas se logra: 
-
+    .titulo-sexto.color-acento-contenido.mt-5
+      h5 Figura 9.
+      span <i>Manual de procesos y procedimientos</i> 
     figure.mt-5
-      img(src='@/assets/curso/temas/tema2/img23.svg', alt='El Manual de procesos y procedimientos se divide en cuatro partes. 1. Establece los métodos y técnicas de procesos y procedimientos que deberá seguir cada empleado o responsable al interior de sus cargos, lo que permitirá la adecuada ejecución de las actividades asignadas. 2. Determina las responsabilidades de la ejecución, control y evaluación de las actividades asignadas en las organizaciones.  3. Estandariza los procesos en las organizaciones. 4. Guía la orientación, inducción y reinducción de los empleados de las organizaciones.')
+      img(src='@/assets/curso/temas/tema2/img23.svg', alt='Figura 9. Manual de procesos y procedimientos establece métodos y técnicas que se deben aplicar en cada cargo, determina las responsabilidad, estandariza los procesos y guía, orienta a los empleado en proceso de inducción y reinducción. ')
 
     p(data-aos="fade-right").mt-5 Para una correcta documentación del manual de procesos y procedimientos se deben caracterizar los procesos y a su vez documentarlos.
 
@@ -375,10 +377,10 @@
     .row.justify-content-center.mt-5(data-aos="fade-left")
       .col-10
         .titulo-sexto.color-acento-contenido
-          h5 Figura 9. 
+          h5 Figura 10. 
           span <i>Plataforma estratégica</i>      
         figure
-          img(src='@/assets/curso/temas/tema2/img25.svg', alt='Misión: describe lo que hace la empresa, su razón de ser. Visión: lo que desea lograr o como se ve en el largo tiempo. Objetivos estratégicos: son los objetivos y metas a largo plazo de las empresas, las cuales permiten cumplir la misión o visión de la empresa. Valores corporativos: principios y valores que caracterizan a una empresa.  Políticas: son los lineamientos con el cual se rige el marco normativo de una empresa. Código de ética: se establecen normas por medio de la cual se rige la empresa y las personas.')          
+          img(src='@/assets/curso/temas/tema2/img25.svg', alt='Figura 10. Plataforma estratégica donde se define la misión, visión, objetivos estratégicos, valores corporativos, políticas y código ética.')          
 
     separador
     #t_2_5.titulo-segundo.color-acento-contenido

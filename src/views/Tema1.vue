@@ -151,11 +151,13 @@
           h5 Figura 1.
           span <i>Ciclo de servicio al cliente</i>
         figure.mt-5
-          img(src='@/assets/curso/temas/tema1/img50.svg', alt='Se presenta el cliclo del servicio al cliente en tres pasos: Primero Contacto Identificación del momento de verdad. Requerimientos. Planes de acción. Segundo Venta Priorización de áreas. Tercero PosventaEncuesta de satisfacción.') 
+          img(src='@/assets/curso/temas/tema1/img50.svg', alt='Figura 1. describe el Ciclo de servicio al cliente que inicia con el contacto donde se vive el momento de verdad, requerimiento y planes de acción. Luego prosigue con la venta y por último, la posventa.') 
         p(data-aos="fade-right").mt-5 En este ciclo de servicio se identifican el proceso de compra o adquisición de servicio por parte del cliente, de la siguiente manera:
-
+        .titulo-sexto.color-acento-contenido.mt-5
+          h5 Figura 2.
+          span <i>Ciclo de servicio al cliente</i>
         figure.mt-5
-          img(src='@/assets/curso/temas/tema1/img20.svg', alt='El ciclo de servicio al cliente se divide en tres categorías. 1. Etapa de contacto: se debe identificar el momento de verdad, el contacto que existe entre el cliente y la organización, se debe tener en cuenta las características de cada cliente y cómo se llega a ellos; el marketing y las comunicaciones. 2. Etapa de venta: se deben priorizar las áreas que requieren intervención con los planes de acción, aquí se incluyen todas las áreas de la empresa al ser el servicio al cliente transversal a toda la organización. 3. Etapa posventa: en la cual el cliente manifiesta a la organización cómo fue su experiencia adquiriendo productos o servicios, qué piensa y cuál es el nivel de fidelización que se logra.')    
+          img(src='@/assets/curso/temas/tema1/img20.svg', alt='Figura 2. Ciclo de servicio al cliente inicia con la etapa de contacto donde hay una interacción entre el cliente y la organización, prosigue con la venta donde se priorizan las áreas que requieren intervención o planes de acción, y la etapa de posventa donde el cliente manifiesta su experiencia dando lugar a su fidelización.')    
 
         .cajon.color-primario.p-4.mt-5(data-aos="fade-left")
           p Dentro del ciclo de servicio se encuentran inmersos otros ciclos, a saber: 
@@ -176,20 +178,20 @@
         .row.justify-content-center.mt-5
           .col-8 
             .titulo-sexto.color-acento-contenido
-              h5 Figura 2.
+              h5 Figura 3.
               span <i>Ciclo de marketing y comunicación</i>
             figure
-              img(src='@/assets/curso/temas/tema1/img21.svg', alt='Se muestra un ciclo circular en los siguientes pasos: 1. Estrategias de marketing y publicidad. 2. Conocimiento del producto o servicio. 3. Comunicación con el cliente. 4. Satisfacción.')    
+              img(src='@/assets/curso/temas/tema1/img21.svg', alt='Figura 3. Ciclo de marketing y comunicación el cual inicia con la satisfacción, la cual es resultado de la implementación de estrategias de marketing y publicidad mediante el conocimiento del producto o servicio y una excelente comunicación con el cliente.')    
 
         p(data-aos="fade-right").mt-5 En cuanto al ciclo de ventas, se da en el momento en que el cliente ha conocido los productos o servicios de la organización, y desea adquirirlos, entra en contacto con la organización, dentro de este ciclo, también se da la facturación y cartera, en la cual se establecen los pagos.
 
       .row.justify-content-center.mt-5.BGIMG02
         .col-8 
             .titulo-sexto.color-acento-contenido.mt-5
-              h5 Figura 3.
+              h5 Figura 4.
               span <i>Ciclo de ventas</i>
             figure
-              img(src='@/assets/curso/temas/tema1/img22.svg', alt='Se muestra un ciclo circular en los siguientes pasos: 1. Contacto con el cliente. 2. Información. 3. Venta de producto o servicio. 4. Posventa.')    
+              img(src='@/assets/curso/temas/tema1/img22.svg', alt='Figura 4. Ciclo de ventas tiene su inicio con la venta del producto o servicio a través del contacto con el cliente, lo que da lugar a la posventa o experiencia del cliente, brindando la oportunidad de un nuevo contacto con el cliente y la generación de la información a divulgar con el fin de generar nuevas ventas.')    
         .col-10
           p(data-aos="fade-right").mt-5 Dentro de este ciclo se encuentra inmerso el proceso de comunicación, contacto e información con el cliente, aquí los medios que usa el cliente para comunicarse son de vital importancia, así como las técnicas de comunicación empleadas por la organización para interactuar con él y cómo se transmite la información de forma que se pueda crear una fidelización.
           p(data-aos="fade-right") El ciclo de servicio permite comprender los diferentes escenarios en los que el cliente entra en interacción con la organización, y se pretende cumplir con las expectativas que tiene el cliente.
@@ -273,14 +275,10 @@
 
     .row.justify-content-center.mt-5
       .col-10
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 4.
-          span <i>Modelos técnicas de servicio y ventas</i>
-
         ImagenInfografica.color-acento-botones
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/tema1/img29.svg', alt='Se muestra una gráfica con 5 modelos que se pueden usar como técnica de ventas, los modelos son los siguientes: Modelo 1 Aida: Paso 1. Servicio de calidad-atención. Paso 2. Los beneficios que requiere el consumidor-interés. Paso 3. Generar deseo. Paso 4. Finalización, acción.  Modelo 2 Aidda: Paso 1. Servicio de calidad-atención. Paso 2. Los beneficios que requiere el consumidor-interés. Paso 3. Demostración. Paso 4. Generar deseo. Paso 5. Finalización, acción.  Modelo 3 Aicdc: Paso 1. Atención. Paso 2. Interés. Paso 3. Convicción. Paso 4. Deseo. Paso 5. Cierre.  Modelo 4 Spirt: Paso 1. Servicio de calidad. Paso 2. Los beneficios que requiere el consumidor. Paso 3. Ofrecer y convencer. Paso 4. Persuadir al cliente. Paso 5. Finalización.  Y Modelo 5 Spin: Paso 1. Situación del cliente. Paso 2. Problema del cliente.Paso 3. Implicaciones para el cliente. Paso 4. Necesidad del cliente.')
+              img(src='@/assets/curso/temas/tema1/img29.svg', alt='Figura 6. Modelos técnicas de servicio y ventas como: Aida, Aidda, Spin, Aicdc basados en la acción, el deseo, el interés y la atención.')
 
           .tarjeta.color-acento-contenido.p-3(x="20.6%" y="20.2%" numero="1")
             .h5 Aida
@@ -413,7 +411,7 @@
           span <i>ISO 9001:2015 - Cliente</i>
 
         figure
-          img(src='@/assets/curso/temas/tema1/img32.svg', alt='Se muestra la gráfica de un embudo en el que ingresan 3 elementos y sale uno, los tres elementos que ingresan en la parte ancha son: operación, enfoque alta dirección y evaluación del desempeño y por el lado angosto sale Servicio al Cliente ISO 9001:2015.')
+          img(src='@/assets/curso/temas/tema1/img32.svg', alt='Figura 5. ISO 9001:205 - Cliente que se enfoca en la operación, el enfoque de la alta dirección y la evaluación del desempeño.')
           figcaption Nota. Tomada de ISO 9001 (2015).
 
     p(data-aos="fade-right").mt-5 En cuanto al enfoque, la alta dirección debe tener en cuenta que se cumpla con los requisitos del cliente y la legalidad, y determinar y considerar los riesgos y oportunidades inherentes a los productos y servicios, así como la capacidad de aumentar la satisfacción del cliente; estas estrategias deben ser lideradas por la alta dirección o gerencia de la organización.
