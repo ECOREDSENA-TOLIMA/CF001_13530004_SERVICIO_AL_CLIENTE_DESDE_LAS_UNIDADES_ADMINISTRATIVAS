@@ -271,7 +271,7 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/7ol7AKzkYfg" title="Protocolo, normas, técnicas y procedimientos de servicio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           figcaption Video: Protocolo, normas, técnicas y procedimientos de servicio
 
-    p(data-aos="fade-right").mt-5 Existen diferentes técnicas como la técnica Spirt, Aida, Aidda, Spin, Aicdc y FAB, entre otros, que dependen de los canales de comunicación y distribución, estos modelos son tradicionales en cada una de las organizaciones, y presentan similitud entre ellos.
+    p(data-aos="fade-right").mt-5 Existen diferentes técnicas como la técnica #[em Spirt, Aida, Aidda, Spin, Aicdc y FAB], entre otros, que dependen de los canales de comunicación y distribución, estos modelos son tradicionales en cada una de las organizaciones, y presentan similitud entre ellos.
 
     .row.justify-content-center.mt-5
       .col-10
@@ -370,7 +370,7 @@
                 | Necesidad del cliente. 
 
     p(data-aos="fade-right").mt-5 De acuerdo con estos modelos tradicionales, se establece un procedimiento de técnicas de servicio y ventas en el cual se debe captar la atención e interés del cliente, para dar a conocer el portafolio de producto de acuerdo con las necesidades manifestadas y con el que se debe persuadir para que adquiera los productos y se cierra o finaliza con la prestación de un servicio de calidad. 
-    p(data-aos="fade-right") Las organizaciones dentro de sus técnicas de servicio y ventas deben realizar seguimiento a las mismasº   después del cierre para conocer si se cumplieron con las expectativas, se generó fidelidad por parte de los clientes y crear planes de mejora, para ello identifique el proceso técnico de servicio al cliente.
+    p(data-aos="fade-right") Las organizaciones dentro de sus técnicas de servicio y ventas deben realizar seguimiento a las mismas después del cierre para conocer si se cumplieron con las expectativas, se generó fidelidad por parte de los clientes y crear planes de mejora, para ello identifique el proceso técnico de servicio al cliente.
 
     .row.justify-content-center.mt-5(data-aos="fade-left")
       .col-lg-6
@@ -440,7 +440,7 @@
               i.lista-ul__vineta
               | Establecer los requisitos específicos para las acciones de contingencia, cuando sea pertinente.
 
-    p(data-aos="fade-right").mt-5 Dentro del proceso de servicio al cliente, se tiene acceso a la información del cliente por lo cual, según la ISO 9001:2015, la organización debe cuidar la propiedad perteneciente a los clientes o a proveedores externos mientras esté bajo el control o uso de la organización; esto como un proceso de operación.
+    p(data-aos="fade-right").mt-5 Dentro del proceso de servicio al cliente, se tiene acceso a la información del cliente, por lo cual, según la ISO 9001:2015, la organización debe cuidar la propiedad perteneciente a los clientes o a proveedores externos mientras esté bajo el control o uso de la organización; esto como un proceso de operación.
     p(data-aos="fade-right") En cuanto a la evaluación de desempeño, se debe propender como objetivo la satisfacción del cliente, por lo que se debe realizar el correcto seguimiento de la percepción de los clientes, evidenciando el cumplimiento de sus necesidades y expectativas.
 
     .row.justify-content-center 

@@ -195,7 +195,7 @@ export default {
   ],
   referencias: [
     {
-      referencia: 'ISO. (2015). Norma ISO 90001:205',
+      referencia: 'ISO. (2015). Norma ISO 90001:2015',
       link: 'https://www.iso.org/obp/ui/es/#iso:std:iso:9000:ed-4:v1:es',
     },
     {
@@ -209,15 +209,15 @@ export default {
       link: '',
     },
     {
-      referencia: 'Peiró, R. (2020). Economipedia.',
+      referencia: 'Peiró, R. (2020). Calidad. Economipedia.',
       link: 'https://economipedia.com/definiciones/calidad-2.html',
     },
     {
-      referencia: 'Quiroa, M. (2019). Economipedia. ',
+      referencia: 'Quiroa, M. (2019). Cliente. Economipedia.',
       link: 'https://economipedia.com/definiciones/cliente.html',
     },
     {
-      referencia: 'Sánchez, G., J. (2015). Empresa. ',
+      referencia: 'Sánchez, G., J. (2015). Empresa. Economipedia.',
       link: 'https://economipedia.com/definiciones/empresa.html',
     },
     {
