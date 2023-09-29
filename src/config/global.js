@@ -142,7 +142,7 @@ export default {
       {
         icono: 'fas fa-download',
         titulo: 'Descargar PDF',
-        download: 'downloads/CFA_1_13530004.zip',
+        download: 'downloads/CFA_01_13530004.zip',
       },
       {
         icono: 'fas fa-download',
@@ -163,6 +163,14 @@ export default {
       tipo: 'Libro',
       link:
         'https://books.google.es/books?id=WWWgBwAAQBAJ&printsec=frontcover&hl=es&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false',
+    },
+    {
+      tema: '2. La empresa',
+      referencia:
+        'DECRETO 410 DE 1971 "Por el cual se expide el Código de Comercio"',
+      tipo: 'Decreto 410 de 1971',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=41102',
     },
     {
       tema: '3. ISO 9001:2015(es) Sistemas de gestión de la calidad',
