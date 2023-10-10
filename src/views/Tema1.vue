@@ -506,39 +506,36 @@
     p(data-aos="fade-right").mt-5 Los canales de comunicación hacen referencia al medio por el cual se transmite el mensaje del emisor al receptor y son el primer punto de contacto entre la entidad y el consumidor; con los avances tecnológicos los modelos de canales de comunicación han cambiado de lo tradicional a lo moderno.
     p(data-aos="fade-right") Dentro de los canales de comunicación, se presentan la comunicación personal, interpersonal e interactivo, tal como se indica a continuación: 
 
-    .row.justify-content-center.mt-5
-      .col-lg-4.col-md-8.col-10.mb-lg-0.mb-4(data-aos="fade-right")
-        .tarjetas-up(@mouseover="mostrarIndicador = false")
-          .indicador--hover(v-if="mostrarIndicador")
-          img(src='@/assets/curso/temas/tema1/img39.png' alt='AvatarTop' style='width:400px')
-          .tarjetas-up_card.p-xl-4.p-lg-3.p-4(style="background-color: #DEF8F3")
-            .title.d-flex.align-items-center.mb-xl-5.mb-lg-4.mb-md-5.mb-4
-              span
-                i.fas.fa-caret-up.fa-2x.me-3
-                i.fas.fa-caret-down.fa-2x.me-3
-              h4.mb-0 El canal de comunicación personal 
+    .row.justify-content-center 
+      .col-10
+        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img39.png')})`}"
+          )
+          .bloque-texto-g__texto.p-5
+            h4.mb-0 El canal de comunicación personal 
+            br
+            br
             p.mb-0 Permite tener una mayor interacción con el consumidor, y se encuentran medios como la atención en oficina, llamada telefónica, o chat.
-      .col-lg-4.col-md-8.col-10.mb-lg-0.mb-4(data-aos="fade-up")
-        .tarjetas-up(@mouseover="mostrarIndicador = false")
-          .indicador--hover(v-if="mostrarIndicador")
-          img(src='@/assets/curso/temas/tema1/img40.png' alt='AvatarTop' style='width:400px')
-          .tarjetas-up_card.p-xl-4.p-lg-3.p-4(style="background-color: #DEF8F3")
-            .title.d-flex.align-items-center.mb-xl-5.mb-lg-4.mb-md-5.mb-4
-              span
-                i.fas.fa-caret-up.fa-2x.me-3
-                i.fas.fa-caret-down.fa-2x.me-3
-              h4.mb-0 El canal interpersonal
+
+        .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img40.png')})`}"
+          )
+          .bloque-texto-g__texto.p-5
+            h4.mb-0 El canal interpersonal
+            br
+            br
             p.mb-0 Es la comunicación que se emite a muchos receptores, pero está dirigida a un grupo de personas específico; como medio se encuentran el e-mail, circulares y diarios oficiales.
-      .col-lg-4.col-md-8.col-10.mb-lg-0.mb-4(data-aos="fade-left")
-        .tarjetas-up(@mouseover="mostrarIndicador = false")
-          .indicador--hover(v-if="mostrarIndicador")
-          img(src='@/assets/curso/temas/tema1/img41.png' alt='AvatarTop' style='width:400px')
-          .tarjetas-up_card.p-xl-4.p-lg-3.p-4(style="background-color: #DEF8F3")
-            .title.d-flex.align-items-center.mb-xl-5.mb-lg-4.mb-md-5.mb-4
-              span
-                i.fas.fa-caret-up.fa-2x.me-3
-                i.fas.fa-caret-down.fa-2x.me-3
-              h4.mb-0 Los canales interactivos
+
+        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img41.png')})`}"
+          )
+          .bloque-texto-g__texto.p-5
+            h4.mb-0 Los canales interactivos
+            br
+            br
             p.mb-0 Son los que permiten tener una mayor participación en los medios digitales, aquí el consumidor interactúa y espera una respuesta de la entidad en esta interacción; el medio que más se emplea son las redes sociales.
 
     separador

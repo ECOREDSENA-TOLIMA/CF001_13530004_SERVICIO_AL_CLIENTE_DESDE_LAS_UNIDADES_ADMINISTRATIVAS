@@ -77,7 +77,7 @@
 
     .row.justify-content-center.mt-5 
       .col-10
-        p(data-aos="fade-right") Los conceptos y los principios de la ISO 9000 permiten a las organizaciones superar los retos presentados por el entorno, proporcionando una manera de pensar más amplia en relación con la organización, y proporcionando conceptos y principios fundamentales para utilizar en el desarrollo de un Sistema de Gestión de la Calidad (SGC).
+        p(data-aos="fade-right") Los conceptos y los principios de la ISO 9000, permiten a las organizaciones superar los retos presentados por el entorno, proporcionando una manera de pensar más amplia en relación con la organización, y proporcionando conceptos y principios fundamentales para utilizar en el desarrollo de un Sistema de Gestión de la Calidad (SGC).
 
     .row.justify-content-center.mt-5(data-aos="fade-left")
       .col-10
@@ -93,36 +93,25 @@
 
     p(data-aos="fade-right") De acuerdo con la norma ISO 9000 el servicio es el resultado del proceso de una organización, que involucra, al menos, una actividad necesariamente llevada a cabo entre la organización y el cliente. El servicio, por lo general, abarca las siguientes características: 
 
-    .row.justify-content-center.mt-5
-      .col-lg-4.col-md-8.col-10.mb-lg-0.mb-4(data-aos="fade-right")
-        .tarjetas-up(@mouseover="mostrarIndicador = false")
-          .indicador--hover(v-if="mostrarIndicador")
-          img(src='@/assets/curso/temas/tema3/img8.png' alt='AvatarTop' style='width:400px')
-          .tarjetas-up_card.p-xl-4.p-lg-3.p-4(style="background-color: #DEF8F3")
-            .title.d-flex.align-items-center.mb-xl-5.mb-lg-4.mb-md-5.mb-4
-              span
-                i.fas.fa-caret-up.fa-2x.me-3
-                i.fas.fa-caret-down.fa-2x.me-3
+    .row.justify-content-center 
+      .col-10
+        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img8.png')})`}"
+          )
+          .bloque-texto-g__texto.p-5
             p.mb-0 Los elementos dominantes de un servicio son generalmente intangibles.
-      .col-lg-4.col-md-8.col-10.mb-lg-0.mb-4(data-aos="fade-up")
-        .tarjetas-up(@mouseover="mostrarIndicador = false")
-          .indicador--hover(v-if="mostrarIndicador")
-          img(src='@/assets/curso/temas/tema3/img9.png' alt='AvatarTop' style='width:400px')
-          .tarjetas-up_card.p-xl-4.p-lg-3.p-4(style="background-color: #DEF8F3")
-            .title.d-flex.align-items-center.mb-xl-5.mb-lg-4.mb-md-5.mb-4
-              span
-                i.fas.fa-caret-up.fa-2x.me-3
-                i.fas.fa-caret-down.fa-2x.me-3
+        .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img9.png')})`}"
+          )
+          .bloque-texto-g__texto.p-5
             p.mb-0 Los servicios con frecuencia involucran actividades en la interfaz, relación y requisitos del cliente.
-      .col-lg-4.col-md-8.col-10.mb-lg-0.mb-4(data-aos="fade-left")
-        .tarjetas-up(@mouseover="mostrarIndicador = false")
-          .indicador--hover(v-if="mostrarIndicador")
-          img(src='@/assets/curso/temas/tema3/img10.png' alt='AvatarTop' style='width:400px')
-          .tarjetas-up_card.p-xl-4.p-lg-3.p-4(style="background-color: #DEF8F3")
-            .title.d-flex.align-items-center.mb-xl-5.mb-lg-4.mb-md-5.mb-4
-              span
-                i.fas.fa-caret-up.fa-2x.me-3
-                i.fas.fa-caret-down.fa-2x.me-3
+        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img10.png')})`}"
+          )
+          .bloque-texto-g__texto.p-5
             p.mb-0 Un servicio generalmente se experimenta por el cliente.
 
     
