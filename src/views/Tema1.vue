@@ -620,7 +620,7 @@
                 .col.mb-3.mb-sm-0
                   p.mb-1 Ingrese al anexo ejemplo de libreta de calificaciones. 
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/OKEst_Anexo_Libreta_Calificaciones.docx')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_Libreta_calificaciones.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 

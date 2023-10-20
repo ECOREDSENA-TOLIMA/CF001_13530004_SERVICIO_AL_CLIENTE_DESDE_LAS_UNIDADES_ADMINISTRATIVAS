@@ -362,12 +362,12 @@
                 .col.mb-3.mb-sm-0
                   p.mb-1 Ingrese al Anexo 1, Símbolos diagrama de procesos y Anexo 2, Diagrama de flujo área de contratación, donde se presenta el ejemplo de un diagrama de procesos para el área de contratación de una organización.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/OKEst_Anexo_Simbolos_diagrama_de_procesos.docx')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_1_Simbolos_diagrama_de_proceso.pdf')" target="_blank")
                     span Ver anexo 1
                     i.fas.fa-file-download
 
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/OKEst_Anexo_Diagrama_de_flujo_area_de_contratacion.docx')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_2_Diagrama_de_flujo.pdf')" target="_blank")
                     span Ver anexo 2
                     i.fas.fa-file-download
 
