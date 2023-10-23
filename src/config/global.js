@@ -173,7 +173,7 @@ export default {
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=41102',
     },
     {
-      tema: '3. ISO 9001:2015(es) Sistemas de gestión de la calidad',
+      tema: '3. ISO 9000:2015(es) Sistemas de gestión de la calidad',
       referencia: 'ISO. (2015). Norma ISO 90001:2015.',
       tipo: 'Norma internacional',
       link: 'https://www.iso.org/obp/ui/es/#iso:std:iso:9000:ed-4:v1:es',
