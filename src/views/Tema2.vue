@@ -295,7 +295,7 @@
       h5 Figura 9.
       span <i>Manual de procesos y procedimientos</i> 
     figure.mt-5
-      img(src='@/assets/curso/temas/tema2/img23.svg', alt='Figura 9. Manual de procesos y procedimientos establece métodos y técnicas que se deben aplicar en cada cargo, determina las responsabilidad, estandariza los procesos y guía, orienta a los empleado en proceso de inducción y reinducción. ')
+      img(src='@/assets/curso/temas/tema2/img23.svg', alt='Figura 9. Manual de procesos y procedimientos establece métodos y técnicas que se deben aplicar en cada cargo, determina las responsabilidad, estandariza los procesos y guía, orienta a los empleado en proceso de inducción y reinducción.')
 
     p(data-aos="fade-right").mt-5 Para una correcta documentación del manual de procesos y procedimientos se deben caracterizar los procesos y a su vez documentarlos.
 

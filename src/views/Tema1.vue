@@ -273,12 +273,13 @@
 
     p(data-aos="fade-right").mt-5 Existen diferentes técnicas como la técnica #[em Spirt, Aida, Aidda, Spin, Aicdc y FAB], entre otros, que dependen de los canales de comunicación y distribución, estos modelos son tradicionales en cada una de las organizaciones, y presentan similitud entre ellos.
 
+    //- Figura 6. Modelos técnicas de servicio y ventas como: Aida, Aidda, Spin, Aicdc basados en la acción, el deseo, el interés y la atención.
     .row.justify-content-center.mt-5
       .col-10
         ImagenInfografica.color-acento-botones
           template(v-slot:imagen)
-            figure
-              img(src='@/assets/curso/temas/tema1/img29.svg', alt='Figura 6. Modelos técnicas de servicio y ventas como: Aida, Aidda, Spin, Aicdc basados en la acción, el deseo, el interés y la atención.')
+            figure 
+              img(src='@/assets/curso/temas/tema1/img29.svg', alt='')
 
           .tarjeta.color-acento-contenido.p-3(x="20.6%" y="20.2%" numero="1")
             .h5 Aida

@@ -31,7 +31,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-1 Ingrese al Anexo NTC ISO 9000-2005 donde puede ampliar conceptos y definiciones importantes a partir de la norma establecida para el servicio al cliente
+                  p.mb-1 Ingrese a la NTC ISO 9000-2015 donde puede ampliar conceptos y definiciones importantes a partir de la norma establecida para el servicio al cliente
                 .col-sm-auto
                   a.boton.color-acento-botones(href=('https://www.iso.org/obp/ui/es/#iso:std:iso:9000:ed-4:v1:es') target="_blank")
                     span Descargar
